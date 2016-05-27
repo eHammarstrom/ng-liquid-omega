@@ -14,9 +14,21 @@
     "target": "es5",
     "inlineSources": true
   },
-
+  "filesGlob": [],
   "files": [
+    "app/environment.ts",
+    "app/index.ts",
+    "app/ng-liquid-omega-nested/index.ts",
+    "app/ng-liquid-omega-nested/ng-liquid-omega-nested.component.spec.ts",
+    "app/ng-liquid-omega-nested/ng-liquid-omega-nested.component.ts",
+    "app/ng-liquid-omega.component.spec.ts",
+    "app/ng-liquid-omega.component.ts",
+    "app/shared/index.ts",
     "main.ts",
+    "system-config.ts",
     "typings.d.ts"
-  ]
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }

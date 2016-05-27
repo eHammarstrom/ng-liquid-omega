@@ -1,3 +1,7 @@
 <h1>
-  {{title}}
+  {{title}} #{{clickCounter}}
 </h1>
+
+<button (click)="clickMe()" type="button" name="button">Click me!</button>
+
+<app-ng-liquid-omega-nested [(clickCounter)]="clickCounter"></app-ng-liquid-omega-nested>
